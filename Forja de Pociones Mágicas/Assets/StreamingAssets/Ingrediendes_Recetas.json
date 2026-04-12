@@ -1,0 +1,68 @@
+{
+  "ingredientes": [
+    {
+      "nombre": "Hongo Brillante",
+      "valor": 10,
+      "iconoId": "hongo"
+    },
+    {
+      "nombre": "Polvo Estelar",
+      "valor": 25,
+      "iconoId": "polvo"
+    },
+    {
+      "nombre": "Cristal Azul",
+      "valor": 18,
+      "iconoId": "cristal"
+    },
+    {
+      "nombre": "Flor Luminosa",
+      "valor": 12,
+      "iconoId": "flor"
+    }
+  ],
+  "recetas": [
+    {
+      "id": 1,
+      "nombre": "Pocion de Vision",
+      "objetivos": [
+        {
+          "ingrediente": "Hongo Brillante",
+          "cantidad": 2
+        },
+        {
+          "ingrediente": "Polvo Estelar",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Pocion de Energía Lunar",
+      "objetivos": [
+        {
+          "ingrediente": "Cristal Azul",
+          "cantidad": 2
+        },
+        {
+          "ingrediente": "Flor Luminosa",
+          "cantidad": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Infusion de Vida",
+      "objetivos": [
+        {
+          "ingrediente": "Flor Luminosa",
+          "cantidad": 3
+        },
+        {
+          "ingrediente": "Hongo Brillante",
+          "cantidad": 1
+        }
+      ]
+    }
+  ]
+}
