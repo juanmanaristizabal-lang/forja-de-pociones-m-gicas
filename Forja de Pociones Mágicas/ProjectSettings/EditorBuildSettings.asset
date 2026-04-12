@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/MenuPrincipal - Scene1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Game/Scenes/Cueva.unity
+    guid: afd7cc8b9bd13c246bae55a22c05c07e
+  - enabled: 1
+    path: Assets/Game/Scenes/Caldero - Scene3.unity
+    guid: 1a3e12903ea6a0b45811f9447b44e936
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
