@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
         OnInventarioActualizado?.Invoke();
     }
 
-    public RecetaData ObetenerRecetaActual()
+    public RecetaData ObtenerRecetaActual()
     {
         if (RecetaActualIndex < Recetas.Count)
             return Recetas[RecetaActualIndex];

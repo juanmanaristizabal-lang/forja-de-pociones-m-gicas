@@ -21,7 +21,7 @@ public class GameDataLoader : MonoBehaviour
     [System.Serializable]
     public class ObjetivoReceta
     {
-        public string ingredientes;
+        public string ingrediente;
         public int cantidad; 
     }
 

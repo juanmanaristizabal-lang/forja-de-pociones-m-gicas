@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 0d6f88589b83a2b4b9732cdfb1f7f43e
+guid: 1bec193e7d85cdf4193b0d3f27d3b9cd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4851933936353134063
-    second: POCIONRECOLECTABLE_0
+      213: 5184914846796657500
+    second: HONGORECOLECTABLE_0
   - first:
-      213: -61445618855305892
-    second: POCIONRECOLECTABLE_1
+      213: -4203818273637202892
+    second: HONGORECOLECTABLE_1
   - first:
-      213: 7014661814919685223
-    second: POCIONRECOLECTABLE_2
+      213: 3647975710779274920
+    second: HONGORECOLECTABLE_2
   - first:
-      213: 5524503567575763201
-    second: POCIONRECOLECTABLE_3
+      213: 9157021496536940614
+    second: HONGORECOLECTABLE_3
+  - first:
+      213: 2668450841232516938
+    second: HONGORECOLECTABLE_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,34 +125,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: POCIONRECOLECTABLE_0
+      name: HONGORECOLECTABLE_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 258
-        width: 42
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe5cdfd5538855340800000000000000
-      internalID: 4851933936353134063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: POCIONRECOLECTABLE_1
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 29
-        width: 367
+        x: 18
+        y: 35
+        width: 429
         height: 440
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -159,19 +140,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5d10230983b52ff0800000000000000
-      internalID: -61445618855305892
+      spriteID: c53b6f1159484f740800000000000000
+      internalID: 5184914846796657500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POCIONRECOLECTABLE_2
+      name: HONGORECOLECTABLE_1
       rect:
         serializedVersion: 2
-        x: 442
-        y: 243
-        width: 41
+        x: 456
+        y: 323
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4340f8b8d8909a5c0800000000000000
+      internalID: -4203818273637202892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HONGORECOLECTABLE_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 178
+        width: 44
         height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 764e8c161c5195160800000000000000
-      internalID: 7014661814919685223
+      spriteID: 8a67046c49630a230800000000000000
+      internalID: 3647975710779274920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POCIONRECOLECTABLE_3
+      name: HONGORECOLECTABLE_3
       rect:
         serializedVersion: 2
-        x: 469
-        y: 189
-        width: 21
-        height: 23
+        x: 420
+        y: 193
+        width: 43
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +206,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1094bb189bafaac40800000000000000
-      internalID: 5524503567575763201
+      spriteID: 64043bdf886441f70800000000000000
+      internalID: 9157021496536940614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HONGORECOLECTABLE_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 99
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47a14ce6ed380520800000000000000
+      internalID: 2668450841232516938
       vertices: []
       indices: 
       edges: []
@@ -223,10 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      POCIONRECOLECTABLE_0: 4851933936353134063
-      POCIONRECOLECTABLE_1: -61445618855305892
-      POCIONRECOLECTABLE_2: 7014661814919685223
-      POCIONRECOLECTABLE_3: 5524503567575763201
+      HONGORECOLECTABLE_0: 5184914846796657500
+      HONGORECOLECTABLE_1: -4203818273637202892
+      HONGORECOLECTABLE_2: 3647975710779274920
+      HONGORECOLECTABLE_3: 9157021496536940614
+      HONGORECOLECTABLE_4: 2668450841232516938
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
