@@ -96,7 +96,7 @@ public class RecipeManager : MonoBehaviour
 
     private void MostrarMensaje(string mensaj)
     {
-        if(textoMensaje == null) 
+        if(textoMensaje != null) 
             textoMensaje.text = mensaj;
     }
 

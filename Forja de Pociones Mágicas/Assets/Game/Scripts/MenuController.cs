@@ -23,6 +23,7 @@ public class MenuController : MonoBehaviour
     public void OnSalir()
     {
         Application.Quit();
+        Debug.Log("[MenuController] Se ha salido");
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
