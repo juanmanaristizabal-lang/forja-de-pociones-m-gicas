@@ -103,7 +103,7 @@ public class RecipeManager : MonoBehaviour
     private void MostrarVictoria()
     {
 
-        MostrarMensaje("¡Felicidades! Has completado todas las recetas.");
+        MostrarMensaje("Felicidades Has completado todas las recetas.");
         if (panelVictoria != null)
             panelVictoria.SetActive(true);
     }

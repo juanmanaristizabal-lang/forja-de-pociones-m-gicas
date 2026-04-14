@@ -96,7 +96,7 @@ public class ItemSpawner : MonoBehaviour
         ItemRecolectable recolectable = item.GetComponent<ItemRecolectable>();
         if (recolectable != null && data != null)
 
-            recolectable.Inicializar(data);
+            recolectable.Inicializar(data);  //le pasa los datos al script itemRecolectable
         else
             Debug.LogWarning($"[ItemSpawner] No se pudo inicializar el item '{nombre}'.");
 
