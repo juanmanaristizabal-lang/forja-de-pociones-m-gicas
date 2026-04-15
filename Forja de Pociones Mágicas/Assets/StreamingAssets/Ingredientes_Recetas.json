@@ -1,7 +1,7 @@
 {
   "ingredientes": [
     {
-      "nombre": "Hongo Brillante",
+      "nombre": "Hongo brillante",
       "valor": 10,
       "iconoId": "hongo"
     },
@@ -24,10 +24,10 @@
   "recetas": [
     {
       "id": 1,
-      "nombre": "Pocion de Vision",
+      "nombre": "Pocion de vida",
       "objetivos": [
         {
-          "ingrediente": "Hongo Brillante",
+          "ingrediente": "Hongo brillante",
           "cantidad": 3
         },
         {
