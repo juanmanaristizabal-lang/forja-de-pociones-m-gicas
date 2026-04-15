@@ -22,8 +22,13 @@ public class ItemSpawner : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (spawnAutomatico)
-            SpawnItems();
+        RecetaData recetaActual = GameManager.Instance.ObtenerRecetaActual();
+        if (recetaActual == null)
+        {
+            Debug.LogWarning("[ItemSpawner] No hay receta activa.");
+            return;
+        }
+        SpawnParaReceta(recetaActual);
     }
 
     private void OnDrawGizmos()
@@ -39,28 +44,7 @@ public class ItemSpawner : MonoBehaviour
          
     }
 
-    private void SpawnItems()
-    {
-        if (itemPrefab == null || spawnPoints.Count.Equals(0)) return;
-
-        List<IngredienteData> ingredientes = GameManager.Instance.Ingredientes;
-
-        if (ingredientes == null || ingredientes.Count.Equals(0))
-        {
-            Debug.LogError("[ItemSpawner] No hay ingredientes cargados.");
-            return;
-        }
-
-        foreach (Transform punto in spawnPoints)
-        {
-            if (punto == null) continue;
-         
-            IngredienteData data = ingredientes[Random.Range(0, ingredientes.Count)];
-            SpawnItem(punto.position, data.nombre);
-        }
-
-        Debug.Log($"[ItemSpawner] Spawneados {spawnPoints.Count} items.");
-    }
+    
 
     public void SpawnParaReceta(RecetaData receta)
     {
