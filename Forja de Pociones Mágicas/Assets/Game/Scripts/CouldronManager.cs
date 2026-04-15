@@ -1,7 +1,7 @@
 using Cainos.LucidEditor;
 using UnityEngine;
 
-public class DeliveryZone : MonoBehaviour
+public class CouldronManager : MonoBehaviour
 {
     [Header("Referenica del recipeManager")]
     [SerializeField] private RecipeManager recipeManager;
