@@ -1,7 +1,7 @@
 {
   "ingredientes": [
     {
-      "nombre": "Hongo brillante",
+      "nombre": "Hongo Brillante",
       "valor": 10,
       "iconoId": "hongo"
     },
@@ -27,7 +27,7 @@
       "nombre": "Pocion de vida",
       "objetivos": [
         {
-          "ingrediente": "Hongo brillante",
+          "ingrediente": "Hongo Brillante",
           "cantidad": 3
         },
         {
